@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 60%;
+    color: #fff;
+    background: #444;
+}
+
+.wrapper {
+    height: 70vh;
+    width: 25%;
+    margin: 20px auto;
+    position: relative;
+}
+
+span, h2 {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    background: rgb(101, 96, 96);
+    display: block;
+    cursor: pointer;
+}
+
+span.lB {
+    left: 0;
+}
+
+span.rB {
+    right: 0;
+}
+
+span.lB:hover, span.rB:hover {
+    background: rgb(116, 64, 64);
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    top: 78%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
